@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj": {}
+    "d:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj": {
+    "d:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "d:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj",
+        "projectPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\savinduj\\.nuget\\packages\\",
-        "outputPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\API\\obj\\",
+        "outputPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,15 +25,14 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj"
+              "d:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -51,6 +50,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -80,14 +83,14 @@
         }
       }
     },
-    "D:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj": {
+    "d:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "d:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\savinduj\\.nuget\\packages\\",
-        "outputPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Application\\obj\\",
+        "outputPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,8 +111,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj"
+              "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj"
               },
               "D:\\Tutorial\\reactivites-api\\Reactivities\\Persistence\\Persistence.csproj": {
                 "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Persistence\\Persistence.csproj"
@@ -146,14 +149,14 @@
         }
       }
     },
-    "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj": {
+    "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\savinduj\\.nuget\\packages\\",
-        "outputPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\obj\\",
+        "outputPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,8 +236,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj"
+              "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\Tutorial\\reactivites-api\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -248,6 +251,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
